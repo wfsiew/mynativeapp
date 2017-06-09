@@ -1,0 +1,32 @@
+<Page class="page" loaded="loaded">
+  <Page.actionBar>
+    <ActionBar title="My App" icon="" class="action-bar"></ActionBar>
+  </Page.actionBar>
+  <TabView>
+    <TabView.items>
+      <TabViewItem title="Tab 1">
+        <TabViewItem.view>
+          <StackLayout orientation="vertical" class="form">
+            <Button text="speak" tap="speak" class="btn"/>
+            <Button text="getcontact" tap="getcontact" class="btn"/>
+            <Button text="sms" tap="sms" class="btn"/>
+            <TextField hint="please type here" />
+            <Switch checked="true" class="switch"></Switch>
+            <Switch checked="false" class="switch"></Switch>
+            <Switch checked="false" class="switch" isEnabled="false"></Switch>
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem title="Tab 2">
+        <TabViewItem.view>
+          <GridLayout columns="*,10*" rows="auto,auto" class="form">
+            <Label text="Name" col="0" row="0" horizontalAlignment="right" verticalAlignment="center"/>
+            <TextField col="1" row="0"/>
+            <Label text="Age" col="0" row="1" horizontalAlignment="right" verticalAlignment="center"/>
+            <TextField col="1" row="1"/>
+          </GridLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+    </TabView.items>
+  </TabView>
+</Page>
