@@ -10,6 +10,7 @@
             <Button text="speak" tap="speak" class="btn"/>
             <Button text="getcontact" tap="getcontact" class="btn"/>
             <Button text="sms" tap="sms" class="btn"/>
+            <Button text="map" tap="showmap" class="btn"/>
             <TextField hint="please type here" />
             <Switch checked="true" class="switch"></Switch>
             <Switch checked="false" class="switch"></Switch>
